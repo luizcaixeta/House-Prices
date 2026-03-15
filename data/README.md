@@ -81,3 +81,4 @@ Significado de cada uma das colunas do dataset:
 | 77  | YrSold:        | ano da venda                                                        |
 | 78  | SaleType:      | tipo de venda                                                       |
 | 79  | SaleCondition: | condição de venda                                                   |
+| 80  | SalePrice:     | preço de venda                                                      |
