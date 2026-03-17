@@ -20,3 +20,12 @@ def data_cleaning(df):
     df["Electrical"] = df["Electrical"].fillna(df["Electrical"].mode()[0])
 
     return df 
+
+def ordinal_variables(qual_map, ordinal_cols, df):
+
+    for col in ordinal_cols:
+        df[col] = df[col].map(qual_map)
+
+    df[ordinal_cols] = df[ordinal_cols].fillna(0).astype(float)
+    
+    return df
