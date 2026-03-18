@@ -14,7 +14,7 @@ def data_collection():
         path="../data",
     )
 
-    for f in os.listdir("../data"):
+    for f in os.listdir("../data/raw"):
         if f.endswith(".zip"):
             zip_path = os.path.join("../data", f)
 
