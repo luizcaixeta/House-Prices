@@ -4,4 +4,6 @@ data/*
 
 src/__pycache__
 
-.venv
+venv
+
+.vscode
