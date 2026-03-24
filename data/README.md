@@ -36,7 +36,7 @@ Significado de cada uma das colunas do dataset:
 | 32  | BsmtExposure:  | refere-se a paredes com saída para o exterior ou ao nível do jardim |
 | 33  | BsmtFinType1:  | classificação da área acabada do porão                              |
 | 34  | BsmtFinSF1:    | tamanho em pés quadrados do tipo 1                                  |
-| 35  | BsmtFinType2:  | classificação da área acabad do porão (se houver vários tipos)      |
+| 35  | BsmtFinType2:  | classificação da área acabada do porão (se houver vários tipos)      |
 | 36  | BsmtFinSF2:    | área construída do tipo 2                                           |
 | 37  | BsmtUnfSF:     | área em pés quadrados inacabada do porão                            |
 | 38  | TotalBsmtSF:   | área total do porão em pés quadrados                                |
