@@ -44,7 +44,7 @@ Significado de cada uma das colunas do dataset:
 | 40  | HeatingQC:     | condição da qualidade do sistema de aquecimento                     |
 | 41  | CentralAir:    | possui ar condicionado central?                                     |
 | 42  | Electrical:    | sistema elétrico                                                    |
-| 43  | 1stFlrSF:      | metragem em pés quadrados do primeiro públicos                      |
+| 43  | 1stFlrSF:      | metragem em pés quadrados do primeiro piso                          |
 | 44  | 2ndFlrSF:      | metral em pés quadrados do segundo piso                             |
 | 45  | LowQualFinSF:  | baixa qualidade da área construída (todos os andares)               |
 | 46  | GrLivArea:     | área habitável acima do nível do solo (em pés quadrados)            |
