@@ -16,7 +16,7 @@ Significado de cada uma das colunas do dataset:
 | 12  | Neighborhood:  | localizações físicas dentro dos limites da cidade de Ames           |
 | 13  | Condition1:    | proximidade de determinadas condições                               |
 | 14  | Condition2:    | proximidade de determinadas condições se houver mais de uma         |
-| 15  | BlgdType:      | tipo de habitação                                                   |
+| 15  | BldgType:      | tipo de habitação                                                   |
 | 16  | HouseStyle:    | estilo da moradia                                                   |
 | 17  | OverallQual:   | avaliação do material e acabamento geral da casa                    |
 | 18  | OverallCond:   | avaliação do estado geral da casa                                   |
@@ -24,9 +24,9 @@ Significado de cada uma das colunas do dataset:
 | 20  | YearRemodAdd:  | ano de recuperação ou adição de cômodos na casa                     |
 | 21  | RoofStyle:     | tipo do telhado                                                     |
 | 22  | RoofMatel:     | material do telhado                                                 |
-| 23  | Exteriorlst:   | Cobertura externa da casa                                           |
+| 23  | Exterior1st:   | Cobertura externa da casa                                           |
 | 24  | Exterior2nd:   | cobertura externa da casa se houver mais um adicional               |
-| 25  | MassVnrType:   | tipo de revestimento de alvenaria                                   |
+| 25  | MasVnrType:   | tipo de revestimento de alvenaria                                   |
 | 26  | MasVnrArea:    | área de revestimento de alvenaria em pés quadrados                  |
 | 27  | ExterQual:     | avalia a qualidadee do material no exterior                         |
 | 28  | ExterCond:     | avalia o estado atual do material no exterior                       |
@@ -36,7 +36,7 @@ Significado de cada uma das colunas do dataset:
 | 32  | BsmtExposure:  | refere-se a paredes com saída para o exterior ou ao nível do jardim |
 | 33  | BsmtFinType1:  | classificação da área acabada do porão                              |
 | 34  | BsmtFinSF1:    | tamanho em pés quadrados do tipo 1                                  |
-| 35  | BsmtFinType2:  | classificação da área acabada do porão (se houver vários tipos)      |
+| 35  | BsmtFinType2:  | classificação da área acabada do porão (se houver vários tipos)     |
 | 36  | BsmtFinSF2:    | área construída do tipo 2                                           |
 | 37  | BsmtUnfSF:     | área em pés quadrados inacabada do porão                            |
 | 38  | TotalBsmtSF:   | área total do porão em pés quadrados                                |
@@ -52,7 +52,7 @@ Significado de cada uma das colunas do dataset:
 | 48  | BsmtHalfBath:  | lavabos no porão                                                    |
 | 49  | FullBath:      | banheiros completos acima do nível do solo                          |
 | 50  | HalfBath :     | lavabos acima do nível do solo                                      |
-| 51  | Bedroom:       | quartos acima do nível do solo (não inclui quartos no porão)        |
+| 51  | BedroomAbvGr:       | quartos acima do nível do solo (não inclui quartos no porão)        |
 | 52  | Kitchen:       | cozinhas acima do nível do solo (não inclui cozinhas no porão)      |
 | 53  | KitchenQual:   | qualidade da cozinhas                                               |
 | 54  | TotRmsAbsGrd:  | total de cômodos acima do nível do solo (não inclui banheiro)       |
