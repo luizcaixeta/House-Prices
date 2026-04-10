@@ -34,13 +34,16 @@ DEFAULT_DROP_COLUMNS = (
     '3SsnPorch',
     'ScreenPorch',
     'KitchenQual',
-    'TotRmsAbvGrd',
+    'RmsAbvGrd',
     'GarageYrBlt',
     'GarageArea',
     '1stFlrSF',
     '2ndFlrSF',
     'PoolArea',
-    'MoSold'
+    'MoSold',
+    'Neighborhood',
+    'Exterior1st',
+    'Exterior2nd',
 )
 
 DEFAULT_RARE_COLUMNS = (
@@ -122,8 +125,22 @@ ORDINAL_MAPPINGS = {
     'MasVnrType': {'BrkCmnn': 0, 'None': 1, 'BrkFace': 2, 'Stone': 3},
 }
 
-FOUNDATION_MAPPING = {
-    'BrkTil': 1,
-    'CBlock': 2,
-    'PConc': 3
+NEIGHBORHOOD_MODE_COLUMNS = (
+    'MSZoning',
+    'Electrical',
+    'Heating',
+    'LotConfig',
+    'MiscFeature',
+    'RoofMatl',
+    'RoofStyle',
+    'SaleCondition',
+    'SaleType',
+)
+
+RARE_GROUP_COLUMNS = NEIGHBORHOOD_MODE_COLUMNS
+
+FOUNDATION_GROUP_MAPPING = {
+    'BrkTil': 'BrkTil',
+    'CBlock': 'CBlock',
+    'PConc': 'PConc',
 }
