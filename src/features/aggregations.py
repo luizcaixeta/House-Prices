@@ -11,7 +11,7 @@ class NeighborhoodScore(BaseEstimator, TransformerMixin):
     ):
         self.neighborhood_col = neighborhood_col
         self.target_col = target_col
-        self.set_output = output_col
+        self.output_col = output_col
         self.fill_value = fill_value
 
     def _zscore(self, series: pd.Series) -> pd.Series:
