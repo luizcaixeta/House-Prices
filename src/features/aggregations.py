@@ -46,7 +46,7 @@ class NeighborhoodScore(BaseEstimator, TransformerMixin):
         neigh["Score"] = (
             0.5 * neigh["SalePrice_z"] 
             + 0.3 * neigh["Qual_mean_z"]
-            + 0.2 * neigh["YearBUilt_z"]
+            + 0.2 * neigh["YearBuilt_z"]
         )
 
         self.mapping_ = neigh["Score"].to_dict()

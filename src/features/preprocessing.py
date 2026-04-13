@@ -1,6 +1,7 @@
 import pandas as pd
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.preprocessing import OneHotEncoder
+from scipy.sparse import spmatrix
 
 class NoneLikeImputer(BaseEstimator, TransformerMixin):
     def __init__(self, columns, fill_value='None'):
@@ -186,6 +187,7 @@ class SafeOneHotEncoder(BaseEstimator, TransformerMixin):
         X_prepared = self._prepare_input(X)
 
         encoded = self.encoder_.transform(X_prepared[self.columns_])
+
         encoded_df = pd.DataFrame(
             encoded,
             columns=self.feature_names_out_,
@@ -199,6 +201,7 @@ class SafeOneHotEncoder(BaseEstimator, TransformerMixin):
 
 class NumericZeroImputer(BaseEstimator, TransformerMixin):
     def fit(self, X, y=None):
+        self.is_fitted_ = True
         return self
 
     def transform(self, X):
