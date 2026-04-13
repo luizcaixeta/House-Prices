@@ -9,4 +9,4 @@ class ColumnDropper(BaseEstimator, TransformerMixin):
     
     def transform(self, X):
         X = X.copy()
-        return X.drop(columns=self.cols, errors="ignore")
+        return X.drop(columns=list(self.cols), errors="ignore")
